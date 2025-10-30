@@ -1,0 +1,60 @@
+.menu-btn {
+  position: absolute;
+  padding-top: 2rem;
+  padding-left: 10%;
+  font-size: 32px;
+}
+@media(max-width: 500px){
+  .menu-btn {
+    font-size: 24px;
+  }
+}
+/* @media(min-width: 768px){
+  .menu-btn {
+    display: none;
+  }
+} */
+.menu-btn:hover{
+  cursor: pointer;
+}
+
+.menu-content {
+  min-width: 150px;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  font-size: 1.2rem;
+  line-height: 2.5;
+  background-color: var(--color-light-gray);
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+
+/* --- OVERLAY --- */
+.overlay {
+  position: fixed;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+

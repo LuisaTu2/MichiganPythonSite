@@ -1,0 +1,10 @@
+.welcome-page {
+  width: 100%;
+}
+
+
+.welcome-page-content {
+  width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+}

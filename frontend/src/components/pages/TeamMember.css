@@ -1,0 +1,60 @@
+.team-member-container {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  width: 100%;
+  gap: 10%;
+}
+.team-member-container.swap {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.team-member-info {
+  width: 50%;
+  padding: 2%;
+}
+
+@media(max-width: 769px) {
+  .team-member-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .team-member-info {
+    width: 100%;
+  }
+  .team-member-container.swap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.team-member-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-blue);
+}
+
+.team-member-blurb {
+  padding: 10px 0;
+}
+
+.team-member-photo-container{
+  width: 50%;
+  align-items: center;
+}
+.team-member-photo {
+  width: 90%;
+  padding: 5%;
+  /* height: 100px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+@media(max-width: 769px) {
+  .team-member-photo-container{
+    width: 100%;
+    align-items: center;
+  }
+}

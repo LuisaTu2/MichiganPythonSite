@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  color: var(--color-blue);
+  /* background-color: var(--color-yellow); */
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+@media(max-width: 500px){
+  .header {
+    font-size: 24px;
+  }
+}
+.header-title:hover{
+  cursor:pointer;
+}
