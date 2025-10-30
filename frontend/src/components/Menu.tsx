@@ -82,10 +82,33 @@ const Menu = ({ setPage }: MenuProps) => {
               >
                 Team
               </a>
-              <a href="#events" onClick={() => setOpen(false)}>
+              <a
+                href="#events"
+                onClick={() => {
+                  setPage(3);
+                  setOpen(false);
+                }}
+              >
                 Events
               </a>
-              <a href="#contact" onClick={() => setOpen(false)}>
+              <a
+                href="#volunteer"
+                onClick={() => {
+                  // setPage(4);
+                  // setOpen(false);
+                }}
+                style={{ color: "grey", cursor: "not-allowed" }}
+              >
+                Volunteer
+              </a>
+              <a
+                href="#contact"
+                onClick={() => {
+                  // setPage(5);
+                  // setOpen(false);
+                }}
+                style={{ color: "grey", cursor: "not-allowed" }}
+              >
                 Contact
               </a>
             </nav>

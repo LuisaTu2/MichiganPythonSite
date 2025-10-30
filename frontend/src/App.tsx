@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import WelcomePage from "./components/pages/WelcomePage";
 import AboutPage from "./components/pages/AboutPage";
 import TeamPage from "./components/pages/Team";
+import EventsPage from "./components/pages/EventsPage";
 
 const App = () => {
   const [page, setPage] = useState<number>(0);
@@ -14,9 +15,10 @@ const App = () => {
       <div className="app">
         <Header onClick={() => setPage(0)} />
         <>
-          {page === 0 && <WelcomePage />}
+          {page === 0 && <WelcomePage setPage={setPage} />}
           {page === 1 && <AboutPage />}
           {page === 2 && <TeamPage />}
+          {page === 3 && <EventsPage />}
         </>
       </div>
     </>

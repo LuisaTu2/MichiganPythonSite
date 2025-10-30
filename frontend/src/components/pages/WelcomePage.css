@@ -2,9 +2,138 @@
   width: 100%;
 }
 
+h3 {
+  color: var(--color-blue);
+}
 
 .welcome-page-content {
   width: 80%;
-  margin-left: 10%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
   text-align: justify;
+  font-size: 18px;
+}
+
+
+.join-next-event{
+  padding-top: 2rem;
+}
+
+
+
+/* NEXT EVENT  */
+
+.next-event {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #fff;
+  cursor: pointer;
+}
+
+.next-event:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.next-event-date {
+  text-align: center;
+  min-width: 60px;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 0;
+  margin-right: 16px;
+  line-height: 1.2;
+}
+
+.next-event-date .month {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.next-event-date .day {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.next-event-date .weekday {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.next-event-info {
+  flex: 1;
+}
+
+.next-event-info .title {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  color: #1a73e8;
+}
+
+.next-event-info .location {
+  margin: 0 0 4px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.next-event-info .status {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+
+/* SELECT YT VIDEOS */
+.select-videos {
+  padding-top: 2rem;
+}
+.select-videos p {
+    /* margin-top: 50px; */
+}
+
+.sample-videos{
+  width: 100%;
+  padding-top:1rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+
+
+.sample-video {
+  width: 100%;
+  max-width: 600px;
+  /* height: 340px; */
+  cursor: pointer;
+}
+
+/* GET INVOLVED */
+.get-involved{
+  padding-top: 2rem;
+    font-size: 1.2rem;
+}
+.get-involved-icon{
+    /* font-size: 1.2rem; */
+}
+.get-involved-txt{
+    /* font-size: 1.2rem; */
+}
+
+ul{
+    padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

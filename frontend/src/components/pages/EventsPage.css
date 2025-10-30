@@ -1,0 +1,91 @@
+.events-page{
+  width: 80%;
+  /* margin-left: 10%; */
+  max-width: 800px;
+  margin: 0 auto 100px auto;
+}
+
+.events-page-content {
+  padding: 2rem 0;
+}
+
+.events-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-card {
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-sticker {
+  position: absolute;
+  top: -24px;
+  right: -6px;
+  background-color: var(--color-yellow);
+  color: var(--color-blue);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 4px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.event-title {
+  margin: 0 0 8px 0;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.event-date {
+  margin: 0 0 24px 0;
+  color: #555;
+}
+
+.event-description {
+  margin: 8px 0 16px 0;
+  text-align: justify;
+}
+
+.event-speaker {
+  margin: 0 0 16px 0;
+}
+
+.event-link {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.event-link:hover {
+  color: #75aaef;
+}
+
+
+.event-location {
+  cursor: pointer;
+  margin-bottom: 8px;
+  color: var(--color-blue);
+}
+.event-location:hover{
+    color: #8db1cf;
+}
+
+.event-online {
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  color: var(--color-blue);
+}
+.event-online:hover{
+    color: #8db1cf;
+}
