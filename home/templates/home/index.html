@@ -1,79 +1,13 @@
-{% extends "base.html" %}
-
-{% block title %}Index{% endblock title %}
-
-{% block content %}
-    <div class="container-fluid border-bottom">
-        <h4 class="text-justify">
-          This is the start of the Michigan Python website.
-        </h4>
-        <h5 class="text-justify">
-          Connect with us on meetup <a href="https://www.meetup.com/michigan-python/" target="_blank">https://www.meetup.com/michigan-python/</a>
-        </h5>
-    </div>
-
-    <div class="container-fluid mt-4">
-        <div class="row">
-          <div class="col">
-              <p>The Michigan Python users group. We meet the first Thursday each month. We are an open community whose mission is to connect people who love writing Python code. Everyone is welcome to join the group and contribute to our mission.
-                <br><br>
-                At a Michigan Python event, you can expect to discuss:
-                <br><br>
-                </p>
-
-                <ul>
-                    <li>
-                    Python—Basic and advanced techniques, PEPs, new versions, implementations, etc.
-                    </li>
-                    <li>
-                    Web Development—Django, Flask, Pyramid, Requests, etc.
-                    </li>
-                    <li>
-                    Artificial Intelligence—machine learning, neural networks, TensorFlow, etc.
-                    </li>
-                    <li>
-                    IoT—Raspberry Pi, Arduino, maker culture, etc.
-                    </li>
-                    <li>
-                    plus anything else Python-related!
-                    </li>
-                </ul>
-
-                <p>
-                Members of the Michigan Python community are open, considerate, and respectful.
-              </p>
-          </div>
-          <div class="col">
-              {% load static %}
-              <img
-                class="img-fluid rounded shadow"
-                src="{% static 'images/MichPython.jpeg' %}"
-                alt="Michigan Python Logo"
-              >
-          </div>
-        </div>
-
-        <div class="row mt-5 ml-1 mr-1 pt-3 pb-3 rounded shadow main-section">
-          <div class="col">
-              {% load static %}
-              <img
-                class="img-fluid rounded shadow"
-                src="{% static 'images/MichPy.gif' %}"
-                alt="Meetup preview"
-              >
-          </div>
-
-          <div class="col">
-              <div class="giftxtstrip-top rounded-top">
-                <h2 class="ml-2">Watch meetups on the</h2>
-              </div>
-              <div class="row justify-content-end mr-5 rounded-bottom giftxtstrip-bot">
-              <a
-                href="https://www.youtube.com/@MichiganPython"
-                class="mr-4 mt-4 mb-2"
-              > Michigan Python YouTube channel</a>
-              </div>
-          </div>
-        </div>
-    </div>
-{% endblock %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Michigan Python</title>
+    <link rel="stylesheet" href="{% static 'assets/index.css' %}" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="{% static 'assets/index.js' %}"></script>
+  </body>
+</html>
