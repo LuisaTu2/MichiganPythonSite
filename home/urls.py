@@ -9,13 +9,21 @@
 # ]
 
 
-from django.contrib import admin
-from django.urls import path, re_path
-from home import views
+# from django.contrib import admin
+# from django.urls import path, re_path
+# from home import views
+
+# urlpatterns = [
+#     path("admin/", admin.site.urls),
+#     path("", views.index),
+#     re_path(r"^.*$", views.index),  # catch-all for React Router
+# ]
+
+
+
+from django.urls import path
+from .views import FrontendAppView
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", views.index),
-    re_path(r"^.*$", views.index),  # catch-all for React Router
+    path("", FrontendAppView.as_view(), name="home"),
 ]
-
