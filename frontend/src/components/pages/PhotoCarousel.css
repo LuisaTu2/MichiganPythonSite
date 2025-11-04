@@ -1,8 +1,8 @@
 .carousel-container {
   position: relative;
   overflow: hidden;
-  width: 80%;
-  margin-left: 10%;
+  width: 85%;
+  margin-left: 7.5%;
   /* min-height: 1vh; */
   max-height: 500px;
   aspect-ratio: 16 / 9;
@@ -49,7 +49,6 @@
   width: 100%;
   text-align: center;
 }
-
 
 
 .dot {

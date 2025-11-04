@@ -1,5 +1,6 @@
 .welcome-page {
   width: 100%;
+  font-size: 20px;
 }
 
 h3 {
@@ -13,9 +14,15 @@ h3 {
   padding-top: 2rem;
   padding-bottom: 10rem;
   text-align: justify;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
-
+@media(max-width: 500px){
+  .welcome-page-content {
+    padding-top: 2rem;
+    /* padding-left: 5%; */
+    width: 85%;
+  }
+}
 
 .join-next-event{
   padding-top: 2rem;
@@ -75,19 +82,19 @@ h3 {
 
 .next-event-info .title {
   margin: 0 0 4px 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #1a73e8;
 }
 
 .next-event-info .location {
   margin: 0 0 4px 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555;
 }
 
 .next-event-info .status {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #888;
 }
 
