@@ -119,7 +119,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
           </div>
         </div>
         <div className="get-involved">
-          <h3>Come join us!!</h3>
+          <h3>Come join us!</h3>
           <ul>
             <li>
               <a
