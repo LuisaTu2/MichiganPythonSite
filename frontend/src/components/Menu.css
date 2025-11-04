@@ -36,6 +36,7 @@
 @media (max-width: 500px) {
   .menu-content {
     width: 60%;
+    background-color: aliceblue;
   }
 }
 
