@@ -16,7 +16,7 @@ h3 {
   text-align: justify;
   /* font-size: 18px; */
 }
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .welcome-page-content {
     padding-top: 2rem;
     /* padding-left: 5%; */
@@ -24,11 +24,9 @@ h3 {
   }
 }
 
-.join-next-event{
+.join-next-event {
   padding-top: 2rem;
 }
-
-
 
 /* NEXT EVENT  */
 
@@ -98,23 +96,21 @@ h3 {
   color: #888;
 }
 
-
 /* SELECT YT VIDEOS */
 .select-videos {
   padding-top: 2rem;
 }
 .select-videos p {
-    /* margin-top: 50px; */
+  /* margin-top: 50px; */
 }
 
-.sample-videos{
+.sample-videos {
   width: 100%;
-  padding-top:1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   /* gap: 50px; */
 }
-
 
 .sample-video {
   width: 100%;
@@ -124,23 +120,27 @@ h3 {
 }
 
 /* GET INVOLVED */
-.get-involved{
+.get-involved {
   padding-top: 2rem;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
-.get-involved-icon{
-    /* font-size: 1.2rem; */
+.get-involved-icon {
+  /* font-size: 1.2rem; */
 }
-.get-involved-txt{
-    /* font-size: 1.2rem; */
+.get-involved-txt {
+  /* font-size: 1.2rem; */
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
   margin: 0;
 }
 li {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.social-media {
+  margin-top: 32px;
 }

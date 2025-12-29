@@ -11,8 +11,8 @@ const EventsPage = () => {
   return (
     <div className="events-page">
       <div className="events-page-content">
-        We meet every first Thursday of the month. We offer both in person and
-        virtual options. Come join us at our next event!
+        We usually meet every first Thursday of the month. We offer both in
+        person and virtual options. Come join us at our next event!
       </div>
       <div className="events-container">
         {EVENTS.map((event, index) => (

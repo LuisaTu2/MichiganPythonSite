@@ -29,11 +29,6 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
       <PhotoCarousel images={[photo1, photo2, photo3]} />
       <br />
       <div className="welcome-page-content">
-        <h3>Hello, world!</h3>
-        Welcome to the Michigan Python Users Group. Our mission is to bring
-        together Python enthusiasts of all backgrounds to learn, collaborate,
-        and inspire one another. Everyone is welcome to join and contribute!
-        <br />
         <div className="join-next-event">
           <h3>Join our next event</h3>
           <div
@@ -57,70 +52,71 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
                     Math.abs(NEXT_EVENT_DATE.getTime() - today.getTime()) /
                       (1000 * 60 * 60 * 24)
                   )}{" "}
-                  days!
+                  days
                 </p>
               ) : (
                 ""
               )}
             </div>
           </div>
-          Can't join this time? Check out more of our events{" "}
+          Check out more of our events{" "}
           <span onClick={() => setPage(4)} style={{ cursor: "pointer" }}>
             <strong>here</strong>
           </span>
           .
         </div>
-        <div className="select-videos">
-          <h3>Visit our YouTube channel</h3>
-          Checkout out our
-          <span
-            onClick={() => window.open(MIPY_YOUTUBE_LINK, "_blank")}
-            style={{ cursor: "pointer" }}
-          >
-            <strong> YouTube </strong>
-          </span>
-          channel, where you can find a collection of our past talks.
-          <div className="sample-videos">
-            <>
-              <p>
-                {" "}
-                Discover how you can accelerate your data analysis with DuckDB:{" "}
-              </p>
-              <video
-                className="sample-video"
-                controls
-                onClick={() =>
-                  window.open(
-                    "https://www.youtube.com/watch?v=9EL1AEXrybU",
-                    "_blank"
-                  )
-                }
-              >
-                <source src={mipy3} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </>
+        <br />
+        <h3> Welcome!</h3>
+        Happy to have you here! The Michigan Python Users Group is a community
+        of Python enthusiasts from all backgrounds, focused on learning,
+        collaboration, and inspiration. Everyone is invited to participate, and
+        you can explore recordings of past talks on our YouTube channel.
+        <span
+          onClick={() => window.open(MIPY_YOUTUBE_LINK, "_blank")}
+          style={{ cursor: "pointer" }}
+        >
+          <strong> YouTube </strong>
+        </span>
+        channel, where you can find a collection of our past talks.
+        <div className="sample-videos">
+          <>
+            <p>
+              {" "}
+              Discover how you can accelerate your data analysis with DuckDB:{" "}
+            </p>
+            <video
+              className="sample-video"
+              controls
+              onClick={() =>
+                window.open(
+                  "https://www.youtube.com/watch?v=9EL1AEXrybU",
+                  "_blank"
+                )
+              }
+            >
+              <source src={mipy3} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </>
 
-            <>
-              <p>...or learn how packaging works with PyInstaller:</p>
-              <video
-                className="sample-video"
-                controls
-                onClick={() =>
-                  window.open(
-                    "https://youtu.be/S_Bus_FNjpg?si=AIaTm41iEDmdPcRr",
-                    "_blank"
-                  )
-                }
-              >
-                <source src={mipy2} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </>
-          </div>
+          <>
+            <p>...or learn how packaging works with PyInstaller:</p>
+            <video
+              className="sample-video"
+              controls
+              onClick={() =>
+                window.open(
+                  "https://youtu.be/S_Bus_FNjpg?si=AIaTm41iEDmdPcRr",
+                  "_blank"
+                )
+              }
+            >
+              <source src={mipy2} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </>
         </div>
-        <div className="get-involved">
-          <h3>Come join us!</h3>
+        <div className="social-media">
           <ul>
             <li>
               <a
