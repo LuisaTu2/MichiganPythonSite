@@ -1,4 +1,4 @@
-.events-page{
+.events-page {
   width: 80%;
   /* margin-left: 10%; */
   max-width: 800px;
@@ -70,14 +70,13 @@
   color: #75aaef;
 }
 
-
 .event-location {
   cursor: pointer;
   margin-bottom: 8px;
   color: var(--color-blue);
 }
-.event-location:hover{
-    color: #8db1cf;
+.event-location:hover {
+  color: #8db1cf;
 }
 
 .event-online {
@@ -86,6 +85,19 @@
   margin-bottom: 24px;
   color: var(--color-blue);
 }
-.event-online:hover{
-    color: #8db1cf;
+.event-online:hover {
+  color: #8db1cf;
+}
+
+.past-event {
+  /* background-color: #e8e9ea; */
+  background: linear-gradient(to bottom, #f1f3f5 0%, #e9ecef 50%, #dee2e6 100%);
+}
+
+.past-events-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-blue);
+  margin-top: 50px;
+  margin-bottom: 30px;
 }

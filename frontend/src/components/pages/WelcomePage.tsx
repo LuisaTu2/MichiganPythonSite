@@ -6,6 +6,9 @@ import photo3 from "../../assets/photo3.png";
 import mipy2 from "../../assets/mipy2.mp4";
 import mipy3 from "../../assets/mipy3.mp4";
 import {
+  MIPY_DISCORD_LINK,
+  MIPY_MEETUP_LINK,
+  MIPY_YOUTUBE_LINK,
   NEXT_EVENT,
   NEXT_EVENT_DATE,
   NEXT_EVENT_DAY,
@@ -62,7 +65,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
             </div>
           </div>
           Can't join this time? Check out more of our events{" "}
-          <span onClick={() => setPage(3)} style={{ cursor: "pointer" }}>
+          <span onClick={() => setPage(4)} style={{ cursor: "pointer" }}>
             <strong>here</strong>
           </span>
           .
@@ -71,9 +74,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
           <h3>Visit our YouTube channel</h3>
           Checkout out our
           <span
-            onClick={() =>
-              window.open("https://www.youtube.com/@MichiganPython", "_blank")
-            }
+            onClick={() => window.open(MIPY_YOUTUBE_LINK, "_blank")}
             style={{ cursor: "pointer" }}
           >
             <strong> YouTube </strong>
@@ -123,7 +124,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
           <ul>
             <li>
               <a
-                href="https://www.meetup.com/michigan-python/"
+                href={MIPY_MEETUP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -133,7 +134,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
             </li>
             <li>
               <a
-                href="https://discord.com/invite/FzZyT3Srba/"
+                href={MIPY_DISCORD_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -145,7 +146,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
             </li>
             <li>
               <a
-                href="https://www.youtube.com/c/MichiganPython"
+                href={MIPY_YOUTUBE_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
               >
