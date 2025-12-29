@@ -1,0 +1,14 @@
+.sponsor-page {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 18px;
+  margin-top: 3rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.sponsor-page-logo {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70px;
+}

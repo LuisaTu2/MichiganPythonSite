@@ -31,5 +31,9 @@ from django.conf import settings
 
 class FrontendAppView(View):
     def get(self, request):
-        index_path = os.path.join(settings.BASE_DIR, 'staticfiles', 'index.html')
+        # UNCOMMENT FOR PROD, COMMENT FOR DEV
+        # index_path = os.path.join(settings.BASE_DIR, 'staticfiles', 'index.html')
+
+        # UNCOMMENT FOR DEV, COMMENT FOR PROD
+        index_path = os.path.join(settings.BASE_DIR, 'frontend_build', 'index.html')
         return FileResponse(open(index_path, 'rb'))

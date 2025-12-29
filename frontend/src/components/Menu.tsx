@@ -64,7 +64,7 @@ const Menu = ({ setPage }: MenuProps) => {
               >
                 Home
               </a>
-              <a
+              {/* <a
                 href="#about"
                 onClick={() => {
                   setPage(1);
@@ -72,7 +72,7 @@ const Menu = ({ setPage }: MenuProps) => {
                 }}
               >
                 About
-              </a>
+              </a> */}
               <a
                 href="#team"
                 onClick={() => {
@@ -83,15 +83,24 @@ const Menu = ({ setPage }: MenuProps) => {
                 Team
               </a>
               <a
-                href="#events"
+                href="#sponsor"
                 onClick={() => {
                   setPage(3);
                   setOpen(false);
                 }}
               >
-                Events
+                Sponsor
               </a>
               <a
+                href="#events"
+                onClick={() => {
+                  setPage(4);
+                  setOpen(false);
+                }}
+              >
+                Events
+              </a>
+              {/* <a
                 href="#volunteer"
                 onClick={() => {
                   // setPage(4);
@@ -110,7 +119,7 @@ const Menu = ({ setPage }: MenuProps) => {
                 style={{ color: "grey", cursor: "not-allowed" }}
               >
                 Contact
-              </a>
+              </a> */}
             </nav>
           </motion.aside>
         )}
