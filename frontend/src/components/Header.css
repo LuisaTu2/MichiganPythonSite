@@ -7,11 +7,11 @@
   font-weight: 600;
   padding: 2rem 0;
 }
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .header {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
-.header-title:hover{
-  cursor:pointer;
+.header-title:hover {
+  cursor: pointer;
 }

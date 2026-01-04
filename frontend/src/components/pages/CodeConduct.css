@@ -1,9 +1,16 @@
 .code-conduct-page {
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
   font-size: 18px;
   text-align: justify;
   margin-bottom: 100px;
+}
+
+@media (max-width: 500px) {
+  .code-conduct-page {
+    margin-top: 10px;
+  }
 }
 
 .code-conduct-page h2 {

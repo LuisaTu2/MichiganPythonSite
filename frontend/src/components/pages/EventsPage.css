@@ -8,6 +8,11 @@
 .events-page-content {
   padding: 2rem 0;
 }
+@media (max-width: 500px) {
+  .events-page-content {
+    padding-top: 10px;
+  }
+}
 
 .events-container {
   max-width: 800px;
