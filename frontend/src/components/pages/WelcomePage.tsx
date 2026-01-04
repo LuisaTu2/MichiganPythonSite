@@ -70,7 +70,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
         Happy to have you here! The Michigan Python Users Group is a community
         of Python enthusiasts from all backgrounds, focused on learning,
         collaboration, and inspiration. Everyone is invited to participate, and
-        you can explore recordings of past talks on our YouTube channel.
+        you can explore recordings of past talks on our
         <span
           onClick={() => window.open(MIPY_YOUTUBE_LINK, "_blank")}
           style={{ cursor: "pointer" }}
@@ -82,7 +82,8 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
           <>
             <p>
               {" "}
-              Discover how you can accelerate your data analysis with DuckDB:{" "}
+              For example, you can discover how to accelerate your data analysis
+              with DuckDB:{" "}
             </p>
             <video
               className="sample-video"

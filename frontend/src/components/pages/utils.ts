@@ -9,6 +9,8 @@ export const MIPY_DISCORD_LINK = "https://discord.com/invite/FzZyT3Srba/";
 export const ZOOM_MEETING_LINK =
   "https://us02web.zoom.us/j/85410617119?pwd=NmxUcXFaUDlMNS9YMTdWc1hHTFZqQT09";
 
+export const PYTHON_ANYWHERE_LINK = "https://www.pythonanywhere.com";
+
 // events
 export const NEXT_EVENT = {
   title: "TBD",

@@ -89,7 +89,7 @@ const Menu = ({ setPage }: MenuProps) => {
                   setOpen(false);
                 }}
               >
-                Sponsor
+                Sponsorship
               </a>
               <a
                 href="#events"
