@@ -60,7 +60,7 @@ const WelcomePage = ({ setPage }: WelcomPageProps) => {
             </div>
           </div>
           Check out more of our events{" "}
-          <span onClick={() => setPage(4)} style={{ cursor: "pointer" }}>
+          <span onClick={() => setPage(3)} style={{ cursor: "pointer" }}>
             <strong>here</strong>
           </span>
           .
