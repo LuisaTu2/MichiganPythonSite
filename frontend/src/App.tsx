@@ -7,6 +7,7 @@ import WelcomePage from "./components/pages/WelcomePage";
 import TeamPage from "./components/pages/Team";
 import EventsPage from "./components/pages/EventsPage";
 import SponsorPage from "./components/pages/Sponsor";
+import CodeConductPage from "./components/pages/CodeConduct";
 
 const App = () => {
   const [page, setPage] = useState<number>(0);
@@ -19,8 +20,9 @@ const App = () => {
           {page === 0 && <WelcomePage setPage={setPage} />}
           {/* {page === 1 && <AboutPage />} */}
           {page === 2 && <TeamPage />}
-          {page === 3 && <SponsorPage />}
-          {page === 4 && <EventsPage />}
+          {page === 3 && <EventsPage />}
+          {page === 4 && <SponsorPage />}
+          {page === 5 && <CodeConductPage />}
         </>
       </div>
     </>

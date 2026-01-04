@@ -9,7 +9,7 @@ const Header = ({ onClick }: HeaderProps) => {
     <div className="header">
       <span className="header-title" onClick={onClick}>
         {" "}
-        Michigan Python
+        Michigan Python Group
       </span>
     </div>
   );

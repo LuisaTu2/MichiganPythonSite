@@ -1,0 +1,20 @@
+.code-conduct-page {
+  width: 60%;
+  margin-left: 20%;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.code-conduct-page h2 {
+  color: var(--color-blue);
+}
+
+.code-conduct-page ul {
+  padding-left: 1.5rem;
+}
+
+.code-conduct-page li {
+  list-style-type: disc;
+  display: list-item;
+}
