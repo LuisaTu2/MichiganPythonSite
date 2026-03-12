@@ -25,7 +25,9 @@ const TeamMember = ({
         </div>
         <div className="team-member-blurb">{blurb}</div>
         <br />
-        <div className="team-member-contact">Contact: {contact}</div>
+        {contact && (
+          <div className="team-member-contact">Contact: {contact}</div>
+        )}
       </div>
       <div className="team-member-photo-container">
         <img src={picture} className="team-member-photo" />
