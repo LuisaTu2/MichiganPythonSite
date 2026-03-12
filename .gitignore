@@ -4,3 +4,4 @@ db.sqlite3
 __pycache__
 isa-mi/
 .gitignore
+node_modules
