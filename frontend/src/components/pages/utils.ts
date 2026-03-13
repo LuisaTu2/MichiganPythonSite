@@ -124,11 +124,11 @@ export const TEAM_MEMBERS = [
     firstName: "Dan",
     lastName: "Yeaw",
     photo: tm1,
-    blurb: `Dan Yeaw is a Sr. Engineering Manager for Open Source Software at Anaconda, 
-    where he leads a team focused on improving the conda CLI's performance, 
-    reliability, and user experience. For the last eight years, 
-    he has contributed to open source projects, 
-    including as a core developer for GNOME, BeeWare, and Gaphor, while helping build Michigan's Python community. 
+    blurb: `Dan Yeaw is a Sr. Engineering Manager for Open Source Software at Anaconda,
+    where he leads a team focused on improving the conda CLI's performance,
+    reliability, and user experience. For the last eight years,
+    he has contributed to open source projects,
+    including as a core developer for GNOME, BeeWare, and Gaphor, while helping build Michigan's Python community.
     Dan brings a unique background having previously worked on Functional Safety at Ford Motor Company and as a Naval Officer.`,
     contact: "",
   },
@@ -138,7 +138,7 @@ export const TEAM_MEMBERS = [
     photo: tm2,
     blurb: `Plus anything else Python-related! Members of the Michigan Python
       community are open, considerate, and respectful. For more information,
-      please see our Code of Conduct.`,
+      please see our Code of Conducter. Two leaves in the spring.`,
     contact: "tm2@gmail.com",
   },
 ];
