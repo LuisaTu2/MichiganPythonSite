@@ -1,0 +1,18 @@
+lefthook: |
+  cd frontend
+  npx lefthook
+
+pre-commit:
+  jobs:
+    - name: frontend-lint
+      run: npm run lint -- --fix {staged_files}
+      stage_fixed: true
+      root: frontend/
+      exclude: frontend_build/
+      glob: "*.{js,ts,jsx,tsx}"
+    - name: frontend-format
+      run: npm run format -- -w {staged_files}
+      stage_fixed: true
+      root: frontend/
+      exclude: frontend_build/
+      glob: "*.{js,ts,jsx,tsx}"

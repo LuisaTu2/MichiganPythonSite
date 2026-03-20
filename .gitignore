@@ -6,3 +6,4 @@ isa-mi/
 .gitignore
 node_modules
 .env
+.husky
